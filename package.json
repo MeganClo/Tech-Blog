@@ -1,0 +1,27 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A CMS-style blog site used to publish articles, blog posts, and thoughts",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeganClo/Tech-Blog.git"
+  },
+  "author": "Megan Close",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeganClo/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/MeganClo/Tech-Blog#readme"
+}
