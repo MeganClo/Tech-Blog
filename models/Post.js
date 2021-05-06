@@ -17,7 +17,7 @@ Post.init(
             allowNull: false,
         },
         post_text: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false
         },
         created_at: {
@@ -41,4 +41,4 @@ Post.init(
     }
 );
 
-model.exports = Post;
+module.exports = Post;
