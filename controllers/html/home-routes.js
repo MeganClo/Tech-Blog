@@ -45,7 +45,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-router.get('/post/:id', (req, res) => {
+router.get('/posts/:id', (req, res) => {
   Post.findOne({
     where: {
       id: req.params.id
@@ -86,6 +86,15 @@ router.get('/post/:id', (req, res) => {
     console.log(err);
     res.status(500).json(err);
   });
+});
+
+
+router.get('/signup', (req, res) => {
+  if (req.session.loggedIn) {
+      res.redirect('/');
+      return;
+  }
+  res.render('signup');
 });
 
 module.exports = router;
