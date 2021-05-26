@@ -1,33 +1,28 @@
-<form class="login-form">
-  <div>
-    <label for="email-login">email:</label>
-    <input type="text" id="email-login" />
-  </div>
-  <div>
-    <label for="password-login">password:</label>
-    <input type="password" id="password-login" />
-  </div>
-  <div>
-    <button type="submit">login</button>
-  </div>
-</form>
-
-<form class="signup-form">
-  <div>
-    <label for="username-signup">username:</label>
-    <input type="text" id="username-signup" />
-  </div>
-  <div>
-    <label for="email-signup">email:</label>
-    <input type="text" id="email-signup" />
-  </div>
-  <div>
-    <label for="password-signup">password:</label>
-    <input type="password" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">signup</button>
-  </div>
+    <!-- Intro -->
+    <div class="form-group">
+      <h3 id="draftheader" class="text-light">The Tech Blog</h3>
+      <p id="welcome" class="text-light"> Welcome to the <strong>Tech Blog!</strong> Login and Post. </p>
+    </div>
+    <!-- Email input -->
+    <div class="form-group">
+      <label class="form-label" for="form1Example1">Email address</label>
+      <input type="email" id="form1Example1" placeholder="Enter Email" class="form-control email-login" />
+    </div>
+    <!-- Password input -->
+    <div class="form-group">
+      <label class="form-label" for="form1Example2">Password</label>
+      <input type="password" id="form1Example2" placeholder="Enter Password" class="form-control password-login" />
+    </div>
+ 
+    <div class="form-group">
+      <!-- Submit button -->
+      <button id="loginbtn" type="submit" class="btn btn-dark btn-block mt-4 p-2">Log in</button>
+    </div>
+   <!-- Sign up section -->
+    <div class="container d-flex justify-content-center">
+      <!-- Signup link --><strong>
+        <a class="text-light text-center" id="sign-up" href="/signup">Sign up</a></strong>
+    </div>
 </form>
 
 <script src="/javascript/login.js"></script>

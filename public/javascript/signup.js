@@ -27,7 +27,7 @@ signupBtnEl.addEventListener('click', async (event) => {
 
             // check the response status
             if (response.ok) {
-                document.location.replace('/team');
+                document.location.replace('/');
                 // alert('Sign-Up successful');
 
             } else {
@@ -42,3 +42,4 @@ signupBtnEl.addEventListener('click', async (event) => {
 
     }
 });
+
