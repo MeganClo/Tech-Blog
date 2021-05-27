@@ -22,7 +22,7 @@ loginButtonEl.addEventListener('click', async (event) => {
       });
 
       if (response.ok) {
-        document.location.replace('/team');
+        document.location.reload();
       } else {
         const thisresponse = await response.json();
         console.log(thisresponse);
