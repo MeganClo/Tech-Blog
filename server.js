@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3041;
 const sess = {
     secret: "I like country music",
-    cookie: {},
+    cookie: {maxAge: 900000},
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
