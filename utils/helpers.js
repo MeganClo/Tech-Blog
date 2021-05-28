@@ -4,6 +4,14 @@ function format_date(date) {
     ).getFullYear()}`;
 };
 
+function format_plural(word, amount) {
+    if (amount !==1) {
+        return `${word}s`;
+    }
+    return word;
+}
+
 module.exports = {
-    format_date
+    format_date,
+    format_plural
 }

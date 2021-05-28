@@ -28,15 +28,16 @@
       </h1>
       <navclass="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
-        {{#if loggedIn}}
-        <a class="navbar-brand" href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout<i class="fas fa-sign-out-alt"></i></button>
-        {{else}}
-        <a href="/login">Login<i class="fas fa-sign-in-alt"></i></a>
-        <a href="/signup">Sign Up<i class="fas fa-user-plus"></i></a>
-        {{/if}}
+          <a class="navbar-brand" href="/dashboard">dashboard</a>
+          {{#if loggedIn}}
+
+          <button id="logout" class="btn-no-style">logout<i class="fas fa-sign-out-alt"></i></button>
+          {{else}}
+          <a href="/login">Login<i class="fas fa-sign-in-alt"></i></a>
+          <a href="/signup">Sign Up<i class="fas fa-user-plus"></i></a>
+          {{/if}}
         </div>
-      </nav>
+        </nav>
     </header>
 
     <main>

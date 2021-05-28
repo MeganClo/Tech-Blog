@@ -93,7 +93,8 @@ router.post("/", withAuth, (req, res) => {
 router.put("/:id", withAuth, (req, res) => {
     Post.update(
         {
-            title: req.body.title
+            title: req.body.title,
+            post_text: req.body.text
         },
         {
             where: {
@@ -102,11 +103,14 @@ router.put("/:id", withAuth, (req, res) => {
         }
     )
     .then(dbPostData => {
+        console.log("here is the post data")
+        console.log(dbPostData);
         if(!dbPostData) {
             res.status(404).json({ message: "No post found with this id" });
             return;
         }
         res.json(dbPostData);
+        // console.log(dbPostData);
     })
     .catch(err => {
         console.log(err);
