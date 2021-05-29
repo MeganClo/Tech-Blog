@@ -1,7 +1,7 @@
 # Tech-Blog [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is a CMS-style blog site where a user can publish articles, blog posts, thoughts and opinions. A user also has the option of leaving comments on other user's posts. 
+This is a CMS-style blog site where a user can log in or sign up to publish articles, blog posts, thoughts and opinions. A user also has the option of reading and leaving comments on other user's posts. If the user is inactive for a period of time, the user is automatically logged out. 
 
 ## Table of Contents
 * [Usage](#Usage)
