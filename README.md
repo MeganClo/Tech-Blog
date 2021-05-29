@@ -3,6 +3,9 @@
 ## Description
 This is a CMS-style blog site where a user can log in or sign up to publish articles, blog posts, thoughts and opinions. A user also has the option of reading and leaving comments on other user's posts. If the user is inactive for a period of time, the user is automatically logged out. 
 
+## Visual
+![Tech Blog](https://user-images.githubusercontent.com/77699944/120084575-360e7580-c086-11eb-8622-897893d9d058.jpg)
+
 ## Table of Contents
 * [Usage](#Usage)
 * [License-Information](#License-Information)
