@@ -101,8 +101,33 @@ header.masthead {
     margin-bottom: 3rem;
     padding-top: calc(8rem + 57px);
     padding-bottom: 8rem;
-    background: no-repeat center center;
+    /* background: no-repeat center center; */
     background-color: #6c757d;
     background-size: cover;
     background-attachment: scroll;
-  }
+}
+
+.big {
+    font-size: 400%;
+} 
+
+.dashboard {
+    font-style: bold;
+}
+.masthead {
+    background-image: url(../images/home-bg.jpeg);
+}
+
+textarea {
+    width: 75%;
+    height: 150px;
+}
+
+.comments {
+    padding: 20px
+}
+
+.edit-title {
+    width: 75%;
+    margin-bottom: 10px;
+}
