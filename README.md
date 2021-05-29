@@ -8,11 +8,27 @@ This is a CMS-style blog site where a user can log in or sign up to publish arti
 
 ## Table of Contents
 * [Usage](#Usage)
+* [Built-With](#Built-With)
 * [License-Information](#License-Information)
 * [Questions](#Questions)
 
 ## Usage
 To use this application please visit the live site [here](https://techbloggerhere.herokuapp.com/). You may read other user's posts and comments. To create your own post or comment on another user's post, sign up and create an account. 
+
+## Built-With 
+  * Node.js 
+    - express-handlebars
+    - mysql2
+    - dotenv
+    - bcrypt
+    - connect-session-sequelize
+    - express-session
+    - sequelize
+  * HTML
+  * JavaScript
+  * CSS
+    - bootstrap 5
+  * Heroku
 
 ## License-Information 
   * The MIT License
