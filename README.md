@@ -9,7 +9,7 @@ This is a CMS-style blog site where a user can log in or sign up to publish arti
 * [Questions](#Questions)
 
 ## Usage
-To use this application please visit the live site here. You may read other user's posts. To create your own post or comment on another user's post, sign up and create an account. 
+To use this application please visit the live site [here](https://techbloggerhere.herokuapp.com/). You may read other user's posts and comments. To create your own post or comment on another user's post, sign up and create an account. 
 
 ## License-Information 
   * The MIT License
